@@ -1,0 +1,20 @@
+**/target/
+.idea
+*.iml
+*.class
+*Test.java
+**/test/
+*.md
+# 但 README 要提交
+!README.md
+
+# ===== 本地真实配置（含数据库密码、OSS/微信/百度密钥），禁止提交 =====
+sky-server/src/main/resources/application-dev.yml
+
+# ===== 本地运行产物 =====
+logs/
+*.log
+.DS_Store
+
+# ===== 本地 agent 工作数据 =====
+.workbuddy/
